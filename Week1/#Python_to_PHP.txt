@@ -13,3 +13,5 @@
   //записываем post-переменную в переменную скрипта $username = filter_input(INPUT_POST, 'username');
 6. Последняя цифра (в HTML задаем название страницы <title>)
   //для умножения строк используем str_repeat()
+7. Первая цифра двузначного числа (в HTML задаем названия полей ввода <label>)
+  //проверяем post-переменную на наличие числа filter_input(INPUT_POST, 'N', FILTER_VALIDATE_INT);
