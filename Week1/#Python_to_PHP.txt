@@ -9,7 +9,8 @@
 3. Дележ яблок-1 "Share_of_apples-1.php"
   (в HTML задаем форму <form>)
   //проверяем post-переменную функцией filter_input()
-4. Дележ яблок-2 (в HTML задаем поле ввода <input>)
+4. Дележ яблок-2  "Share_of_apples-2.php"
+  (в HTML задаем поле ввода <input>)
   //проверяем post-переменную на пустоту strlen('username') > 0
 5. Степень двойки (в HTML задаем кнопку отправки данных формы на сервер <input type="submit">)
   //записываем post-переменную в переменную скрипта $username = filter_input(INPUT_POST, 'username');
